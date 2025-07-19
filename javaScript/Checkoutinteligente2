@@ -1,0 +1,31 @@
+// IMPORTANTE: Na DIO, as funções "gets" e "print" são acessíveis globalmente, onde:
+// - "gets": lê UMA linha com dado(s) de entrada (inputs) do usuário;
+// - "print": imprime um texto de saída (output) e pula uma linha ("\n") automaticamente.
+
+const valor = parseFloat(gets());
+
+// TODO: Calcule o valor do desconto:
+let valorDesconto;
+if (valor > 100) {
+    valorDesconto = valor * 0.10;
+} else {
+    valorDesconto = 0;
+}
+
+// TODO: Calcule o valor final, subtraindo o desconto (se houver) do valor original:
+const valorFinal = valor - valorDesconto;
+
+// TODO: Verifique se o valor tem desconto (true ou false):
+let temDesconto;
+if (valor > 100) {
+    temDesconto = true;
+} else {
+    temDesconto = false;
+}
+
+// Exibe o resultado no formato correto
+if (temDesconto) {
+    print("Valor com desconto: R$ " + valorFinal.toFixed(2));
+} else {
+    print("Valor sem desconto: R$ " + valorFinal.toFixed(2));
+}
