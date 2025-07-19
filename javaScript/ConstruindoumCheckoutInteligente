@@ -1,0 +1,14 @@
+// IMPORTANTE: Na DIO, as funções "gets" e "print" são acessíveis globalmente, onde:
+// - "gets": lê UMA linha com dado(s) de entrada (inputs) do usuário;
+// - "print": imprime um texto de saída (output) e pula uma linha ("\n") automaticamente.
+
+// Lê os três preços digitados pelo usuário
+let preco1 = parseFloat(gets());
+let preco2 = parseFloat(gets());
+let preco3 = parseFloat(gets());
+
+// Calcula o total da compra
+const total = preco1 + preco2 + preco3;
+
+// Exibe o resultado no formato solicitado
+print("Total da compra: R$ " + total.toFixed(2));
