@@ -10,4 +10,4 @@ function somar(a, b) {
 }
 
 let resultado = somar(5, 3); // resultado agora vale 8
-console.log(resultado); // Saída: 8
+console.log("O resultado é: " + resultado); // Saída: 8
