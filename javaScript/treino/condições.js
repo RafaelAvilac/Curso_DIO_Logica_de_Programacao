@@ -32,3 +32,20 @@ let character = "Wizard";
 if (character === "Wizard") {
   console.log("Special power : potions");
 }
+
+//Crie uma variável const chamada getTicket. Seu valor deve verificar se a variável directFlight tem um valor booleano de true.
+
+let directFlight = true;
+const getTicket = directFlight === true;
+
+if (getTicket) {
+  console.log("Direct fligth found");
+}
+
+//Codifique uma declarção if que define isFreezing como true se degress for menor ou igual a 0
+let degrees = 0;
+let isFreezing = false;
+if (degrees <= 0) {
+  isFreezing = true;
+}
+console.log("Is freezing: " + isFreezing);
