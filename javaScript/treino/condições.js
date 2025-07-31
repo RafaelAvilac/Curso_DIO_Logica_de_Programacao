@@ -49,3 +49,61 @@ if (degrees <= 0) {
   isFreezing = true;
 }
 console.log("Is freezing: " + isFreezing);
+
+//Codofique uma declaração if que verifica se a variável destination é igual a "Venice".
+//  Se a comparação for true, use console.log para exibir uma string com mais de 10 caracteres.
+
+let destination = "Venice";
+if (destination === "Venice") {
+  console.log("A variável destination atende aos requisitos.");
+}
+
+//Defina um valor para isInstalled de modo que You alread have snapCat seja exibido no console.
+
+let isInstalled = "ok";
+
+if (isInstalled === "ok") {
+  console.log("You already have SnapCat");
+} else {
+  console.log("Installing SnapCat...");
+}
+
+//Codifique uma declaração if/else usando isWeekend como a condição.
+//Para cada bloco de código, codifique um console.log que exiba uma string de sua escolha.
+
+let isWeekend = false;
+if (isWeekend) {
+  console.log("Bom final de semana!");
+} else {
+  console.log("Aproveite o dia!");
+}
+
+//Codifique uma declaração if/else cujos blocos de código exibam mensagens diferentes no console.
+//A condição da declaração if deve verificar se password é igual a correctPassword.
+
+let password = "001";
+let correctPassword = "000";
+if (password === correctPassword) {
+  console.log("Acesso autorizado.");
+} else {
+  console.log("Acesso negado.");
+}
+
+//Codifique uma declaração else que atualize flourAdded para 200 se o usuário não peneirou farinha suficiente na masssa do bolo.
+
+let flourAdded = 50;
+let flourNeeded = 200;
+if (flourAdded === flourNeeded) {
+  console.log("Add vanilla bean");
+} else {
+  flourAdded = 200;
+}
+
+//Defina memoryFull para que takePicture seja atualizado para true.
+let memoryFull = false;
+let takePicture = false;
+if (memoryFull) {
+  console.log("Phone memory full");
+} else {
+  takePicture = true;
+}
