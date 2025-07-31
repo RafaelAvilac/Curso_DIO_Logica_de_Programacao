@@ -107,3 +107,41 @@ if (memoryFull) {
 } else {
   takePicture = true;
 }
+
+//Adicione uma declaração else que exiba "You have a new message" se messages for maior que 0.
+
+let message = 5;
+if (message === 0) {
+  console.log("Imbox empty");
+} else {
+  console.log("You have a new message");
+}
+
+//Codifique uma declaração if/else que define inboxFull com true se message for maior que 1000. em seguida exiba uma mensagem se não for.
+
+let messages = 1100;
+let inboxFull = false;
+if (messages > 1000) {
+  inboxFull = true;
+} else {
+  console.log("Caixa de mensagem cheia");
+}
+
+//Codifique uma declaração if/else cujos blocos de código exibem mensagens no console.
+//Defina a condição da declaração if para verificar se commonFriends é maior que 2.
+
+let commonFriends = 3;
+if (commonFriends > 2) {
+  console.log("Parabéns!!!");
+} else {
+  console.log("Que pena!");
+}
+
+//Defina um valor booleano para installed de modo que o bloco de código else seja executado.
+
+let installed = false;
+if (installed) {
+  console.log("Homeflix alread installed");
+} else {
+  console.log("Installing Homeflix...");
+}
